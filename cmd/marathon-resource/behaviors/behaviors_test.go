@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/marathon"
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/mocks"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/marathon"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/mocks"
 	gomarathon "github.com/gambol99/go-marathon"
 	"github.com/golang/mock/gomock"
 )

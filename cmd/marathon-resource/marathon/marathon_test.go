@@ -14,7 +14,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/Sirupsen/logrus/hooks/test"
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/mocks"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/mocks"
 	gomarathon "github.com/gambol99/go-marathon"
 	"github.com/golang/mock/gomock"
 )

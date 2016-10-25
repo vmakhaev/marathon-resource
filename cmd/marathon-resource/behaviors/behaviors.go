@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/marathon"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/marathon"
 	gomarathon "github.com/gambol99/go-marathon"
 )
 

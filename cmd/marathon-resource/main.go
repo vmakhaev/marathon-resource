@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/behaviors"
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/marathon"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/behaviors"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/marathon"
 )
 
 const (

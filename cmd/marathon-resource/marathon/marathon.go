@@ -9,8 +9,8 @@ import (
 	"net/url"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/ckaznocha/marathon-resource/cmd/marathon-resource/dates"
 	gomarathon "github.com/gambol99/go-marathon"
+	"github.com/vmakhaev/marathon-resource/cmd/marathon-resource/dates"
 )
 
 const (
@@ -68,7 +68,7 @@ func (m *marathon) handleReq(
 	resObj interface{},
 ) error {
 	u := *m.url
-	u.Path = path
+	u.Path += path
 	req, err := http.NewRequest(method, u.String(), payload)
 	if err != nil {
 		return err
